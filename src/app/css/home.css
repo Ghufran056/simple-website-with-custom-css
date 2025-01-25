@@ -1,0 +1,84 @@
+.main-homepage{
+    
+    background-image: url("/Governor-House-Sindh.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    
+   
+}
+.blur-bg{
+    background-color: rgba(244, 244, 245, 0.9);
+    height: 100%;
+    width: 100%;
+}
+.main-content{
+    
+   margin-left:5vw;
+    display:block
+    
+}
+.text{
+    align-items: center;
+    height: fit-content;
+    width: 100%;
+    
+    padding-top: 15vh;
+    
+}
+.profession{
+    color: rgba(4, 78, 131, 1);
+    font-size: 62px;
+    font-weight:900;
+    line-height: 60px;
+}
+    
+.governor{
+    color: rgba(4, 78, 131, 1);
+    font-size: 40px;
+    line-height: 45px;
+    margin-bottom: 4vh;
+    
+}
+.course{
+    color: rgba(46, 182, 232, 1);
+    font-size: 40px;
+    font-weight:900;
+    line-height: 46px;
+}
+.detail{
+    color: rgba(4, 78, 131, 1);
+    font-size: 25px;  
+    font-weight:900;
+    padding-top: 3vh;
+}
+.apply-button{
+    margin: 7vh 0;
+    background-color: rgba(4, 78, 131, 1);
+    color: white;
+    font-weight: 800;
+    padding: 16px 50px;
+    border-radius: 4px;
+}
+.governor-img{
+    
+    padding-top: 4vh;
+  width: 600px;
+    
+  height: auto;
+    
+}
+@media(min-width:769px){
+    .main-content{
+        display: flex;
+        
+    justify-content:space-between;
+    }
+    
+}
+@media(min-width:1200px){
+    .governor-img{
+        width:1500px;
+    }
+}
+

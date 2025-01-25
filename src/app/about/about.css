@@ -1,0 +1,40 @@
+.about{
+width: 100%;
+ padding:5vh 10vw;
+ display: flex;
+ justify-content: space-between;
+
+}
+
+.right{
+    width: 100%;
+    padding-top: 250px;
+    padding-left: 5vw;
+}
+
+.about-me{
+font-size: xx-large;
+font-weight:bold;
+}
+.name{
+    color: purple;
+    font-size: x-large;
+    
+}
+@media(max-width:426px){
+    .about{
+        flex-direction: column;
+    }
+    .my-pic{
+        height: 400px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .right{
+        
+        padding-top: 5vh;
+    }
+    .name{
+        font-size: larger;
+    }
+}
